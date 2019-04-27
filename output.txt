@@ -1,0 +1,628 @@
+10:23:40.894112 Edge added: 1 - 2, weight = 9
+10:23:40.894288 Edge added: 1 - 8, weight = 15
+10:23:40.894305 Edge added: 2 - 3, weight = 11
+10:23:40.894316 Edge added: 2 - 8, weight = 7
+10:23:40.894326 Edge added: 0 - 2, weight = 6
+10:23:40.894337 Edge added: 3 - 4, weight = 10
+10:23:40.894347 Edge added: 3 - 6, weight = 2
+10:23:40.894356 Edge added: 0 - 3, weight = 8
+10:23:40.894367 Edge added: 4 - 5, weight = 14
+10:23:40.894377 Edge added: 4 - 6, weight = 3
+10:23:40.894387 Edge added: 5 - 6, weight = 13
+10:23:40.894398 Edge added: 6 - 7, weight = 20
+10:23:40.894408 Edge added: 0 - 6, weight = 12
+10:23:40.894418 Edge added: 7 - 8, weight = 4
+10:23:40.894428 Edge added: 0 - 8, weight = 5
+10:23:40.895367 [0]->self {wakeup}
+10:23:40.895393 [1]->self {wakeup}
+10:23:40.895397 [2]->self {wakeup}
+10:23:40.895401 [3]->self {wakeup}
+10:23:40.895406 [4]->self {wakeup}
+10:23:40.895410 [5]->self {wakeup}
+10:23:40.895464 [6]->self {wakeup}
+10:23:40.895472 [7]->self {wakeup}
+10:23:40.895476 [8]->self {wakeup}
+10:23:40.895484 [3] process start
+10:23:40.895672 >> [3] received {wakeup} from [3]
+10:23:40.895682 [3] activated
+10:23:40.895686 [3] => <find>
+10:23:40.895690 [3] received {wakeup} from [3] (port /0/)
+10:23:40.895695 [3]->[6] {wakeup}
+10:23:40.895699 [3]->[0] {wakeup}
+10:23:40.895703 [3]->[4] {wakeup}
+10:23:40.895707 [3]->[2] {wakeup}
+10:23:40.895711 [3] found [basic] edge: [6] (weight 2)
+10:23:40.895714 [3] => <found>
+10:23:40.895717 [3]-[6] => <branch>
+10:23:40.895726 [3]->[6] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 2 ms
+10:23:40.895537 [4] process start
+10:23:40.895904 >> [4] received {wakeup} from [4]
+10:23:40.895912 [4] activated
+10:23:40.895919 [4] => <find>
+10:23:40.895926 [4] received {wakeup} from [4] (port /0/)
+10:23:40.895935 [4]->[6] {wakeup}
+10:23:40.895943 [4]->[3] {wakeup}
+10:23:40.895951 [4]->[5] {wakeup}
+10:23:40.895958 [4] found [basic] edge: [6] (weight 3)
+10:23:40.895965 [4] => <found>
+10:23:40.895972 [4]-[6] => <branch>
+10:23:40.895999 [4]->[6] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 1 ms
+10:23:40.895551 [5] process start
+10:23:40.896023 >> [5] received {wakeup} from [5]
+10:23:40.896029 [5] activated
+10:23:40.896036 [5] => <find>
+10:23:40.896042 [5] received {wakeup} from [5] (port /0/)
+10:23:40.896049 [5]->[6] {wakeup}
+10:23:40.896058 [5]->[4] {wakeup}
+10:23:40.896065 [5] found [basic] edge: [6] (weight 13)
+10:23:40.896071 [5] => <found>
+10:23:40.896078 [5]-[6] => <branch>
+10:23:40.896088 [5]->[6] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 4 ms
+10:23:40.895560 [6] process start
+10:23:40.896102 >> [6] received {wakeup} from [6]
+10:23:40.896108 [6] activated
+10:23:40.896115 [6] => <find>
+10:23:40.896120 [6] received {wakeup} from [6] (port /0/)
+10:23:40.896127 [6]->[3] {wakeup}
+10:23:40.896133 [6]->[4] {wakeup}
+10:23:40.896151 [6]->[0] {wakeup}
+10:23:40.896157 [6]->[5] {wakeup}
+10:23:40.896164 [6]->[7] {wakeup}
+10:23:40.896170 [6] found [basic] edge: [3] (weight 2)
+10:23:40.896175 [6] => <found>
+10:23:40.896181 [6]-[3] => <branch>
+10:23:40.896189 [6]->[3] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 2 ms
+10:23:40.895580 [7] process start
+10:23:40.896202 >> [7] received {wakeup} from [7]
+10:23:40.896207 [7] activated
+10:23:40.896213 [7] => <find>
+10:23:40.896219 [7] received {wakeup} from [7] (port /0/)
+10:23:40.896225 [7]->[8] {wakeup}
+10:23:40.896231 [7]->[6] {wakeup}
+10:23:40.896237 [7] found [basic] edge: [8] (weight 4)
+10:23:40.896242 [7] => <found>
+10:23:40.896248 [7]-[8] => <branch>
+10:23:40.896256 [7]->[8] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 4 ms
+10:23:40.895588 [8] process start
+10:23:40.896269 >> [8] received {wakeup} from [8]
+10:23:40.896275 [8] activated
+10:23:40.896280 [8] => <find>
+10:23:40.896286 [8] received {wakeup} from [8] (port /0/)
+10:23:40.896292 [8]->[7] {wakeup}
+10:23:40.896298 [8]->[0] {wakeup}
+10:23:40.896304 [8]->[2] {wakeup}
+10:23:40.896311 [8]->[1] {wakeup}
+10:23:40.896317 [8] found [basic] edge: [7] (weight 4)
+10:23:40.896322 [8] => <found>
+10:23:40.896340 [8]-[7] => <branch>
+10:23:40.896349 [8]->[7] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 4 ms
+10:23:40.895599 [1] process start
+10:23:40.896362 >> [1] received {wakeup} from [1]
+10:23:40.896375 [1] activated
+10:23:40.896381 [1] => <find>
+10:23:40.896386 [1] received {wakeup} from [1] (port /0/)
+10:23:40.896392 [1]->[2] {wakeup}
+10:23:40.896399 [1]->[8] {wakeup}
+10:23:40.896405 [1] found [basic] edge: [2] (weight 9)
+10:23:40.896410 [1] => <found>
+10:23:40.896416 [1]-[2] => <branch>
+10:23:40.896424 [1]->[2] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 3 ms
+10:23:40.895607 [0] process start
+10:23:40.896436 >> [0] received {wakeup} from [0]
+10:23:40.896442 [0] activated
+10:23:40.896448 [0] => <find>
+10:23:40.896453 [0] received {wakeup} from [0] (port /0/)
+10:23:40.896462 [0]->[8] {wakeup}
+10:23:40.896468 [0]->[2] {wakeup}
+10:23:40.896474 [0]->[3] {wakeup}
+10:23:40.896481 [0]->[6] {wakeup}
+10:23:40.896487 [0] found [basic] edge: [8] (weight 5)
+10:23:40.896492 [0] => <found>
+10:23:40.896498 [0]-[8] => <branch>
+10:23:40.896506 [0]->[8] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 4 ms
+10:23:40.895626 [2] process start
+10:23:40.896520 >> [2] received {wakeup} from [2]
+10:23:40.896527 [2] activated
+10:23:40.896532 [2] => <find>
+10:23:40.896538 [2] received {wakeup} from [2] (port /0/)
+10:23:40.896544 [2]->[0] {wakeup}
+10:23:40.896550 [2]->[8] {wakeup}
+10:23:40.896557 [2]->[1] {wakeup}
+10:23:40.896563 [2]->[3] {wakeup}
+10:23:40.896569 [2] found [basic] edge: [0] (weight 6)
+10:23:40.896575 [2] => <found>
+10:23:40.896581 [2]-[0] => <branch>
+10:23:40.896588 [2]->[0] {connect} || From {CoreEdge:-1--1, lv:0} to {CoreEdge:-1--1, lv:0} || 2 ms
+10:23:40.897597 >> [4] received {wakeup} from [3]
+10:23:40.897614 >> [4] received {wakeup} from [5]
+10:23:40.897619 >> [4] received {wakeup} from [6]
+10:23:40.897898 >> [3] received {wakeup} from [4]
+10:23:40.897914 >> [3] received {wakeup} from [6]
+10:23:40.897918 >> [3] received {wakeup} from [0]
+10:23:40.897922 >> [3] received {wakeup} from [2]
+10:23:40.898334 >> [6] received {wakeup} from [3]
+10:23:40.898346 >> [3] received {connect} from [6]
+10:23:40.898390 [3] received {connect} from [6] AFTER sending {connect} to [6]
+10:23:40.898348 >> [6] received {wakeup} from [4]
+10:23:40.898405 [3]->[6] {initiate} || Fragment: CoreEdge=3-6 (lv 1), status = find, Sender's FindCount = 0 || 3 ms
+10:23:40.898410 >> [6] received {wakeup} from [5]
+10:23:40.898417 >> [6] received {wakeup} from [7]
+10:23:40.898421 >> [6] received {wakeup} from [0]
+10:23:40.898425 >> [6] received {connect} from [4]
+10:23:40.898436 [6] received {connect} from [4] BEFORE sending {connect} to [4]; {connect} message stored, size = 1
+10:23:40.898441 >> [6] received {connect} from [3]
+10:23:40.898444 [6] received {connect} from [3] AFTER sending {connect} to [3]
+10:23:40.898451 [6]->[3] {initiate} || Fragment: CoreEdge=3-6 (lv 1), status = find, Sender's FindCount = 0 || 2 ms
+10:23:40.898760 >> [2] received {wakeup} from [3]
+10:23:40.898803 >> [2] received {wakeup} from [8]
+10:23:40.898811 >> [2] received {wakeup} from [1]
+10:23:40.898816 >> [2] received {wakeup} from [0]
+10:23:40.899704 >> [1] received {wakeup} from [8]
+10:23:40.899746 >> [1] received {wakeup} from [2]
+10:23:40.899756 >> [2] received {connect} from [1]
+10:23:40.899767 [2] received {connect} from [1] BEFORE sending {connect} to [1]; {connect} message stored, size = 1
+10:23:40.900241 >> [5] received {wakeup} from [4]
+10:23:40.900275 >> [5] received {wakeup} from [6]
+10:23:40.900398 >> [8] received {wakeup} from [7]
+10:23:40.900409 >> [8] received {wakeup} from [1]
+10:23:40.900412 >> [8] received {wakeup} from [0]
+10:23:40.900416 >> [8] received {wakeup} from [2]
+10:23:40.900422 >> [7] received {wakeup} from [6]
+10:23:40.900425 >> [7] received {wakeup} from [8]
+10:23:40.900429 >> [7] received {connect} from [8]
+10:23:40.900433 [7] received {connect} from [8] AFTER sending {connect} to [8]
+10:23:40.900442 [7]->[8] {initiate} || Fragment: CoreEdge=7-8 (lv 1), status = find, Sender's FindCount = 0 || 3 ms
+10:23:40.900457 >> [8] received {connect} from [7]
+10:23:40.900461 [8] received {connect} from [7] AFTER sending {connect} to [7]
+10:23:40.900467 [8]->[7] {initiate} || Fragment: CoreEdge=7-8 (lv 1), status = find, Sender's FindCount = 0 || 3 ms
+10:23:40.900661 >> [0] received {wakeup} from [3]
+10:23:40.900672 >> [0] received {wakeup} from [6]
+10:23:40.900676 >> [0] received {wakeup} from [8]
+10:23:40.900679 >> [0] received {wakeup} from [2]
+10:23:40.900683 >> [0] received {connect} from [2]
+10:23:40.900691 [0] received {connect} from [2] BEFORE sending {connect} to [2]; {connect} message stored, size = 1
+10:23:40.900727 [6] send {initiate} over new core edge [6]-[3]
+10:23:40.900736 >> [6] received {connect} from [5]
+10:23:40.900740 [6] is going to merge/absorb [5]'s fragment, status=found
+10:23:40.900744 [6]-[5] => <branch>
+10:23:40.900750 [6]->[5] {initiate} || Fragment: CoreEdge=3-6 (lv 1), status = found, Sender's FindCount = 0 || 4 ms
+10:23:40.901728 [3] send {initiate} over new core edge [3]-[6]
+10:23:40.901763 >> [3] received {initiate} from [6]
+10:23:40.901770 [3] => <find>
+10:23:40.901776 -- [3]: Status=find, FindCount=0, {CoreEdge:3-6, lv:1}, CoreDirection=6, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.901780 [3] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.901796 [3] found [basic] edge: [0] (weight 8)
+10:23:40.901804 [3] {test} possible outbound edge: [3]-[0] (weight 8)
+10:23:40.901811 [3]->[0] {test} || From {CoreEdge:3-6, lv:1} to {CoreEdge:-1--1, lv:0} || 2 ms
+10:23:40.903583 [8] send {initiate} over new core edge [8]-[7]
+10:23:40.903612 >> [8] received {connect} from [0]
+10:23:40.903617 [8] is going to merge/absorb [0]'s fragment, status=found
+10:23:40.903621 [8]-[0] => <branch>
+10:23:40.903630 [8]->[0] {initiate} || Fragment: CoreEdge=7-8 (lv 1), status = found, Sender's FindCount = 0 || 4 ms
+10:23:40.903584 [7] send {initiate} over new core edge [7]-[8]
+10:23:40.903638 >> [7] received {initiate} from [8]
+10:23:40.903642 [7] => <find>
+10:23:40.903647 -- [7]: Status=find, FindCount=0, {CoreEdge:7-8, lv:1}, CoreDirection=8, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.903651 [7] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.903655 [7] found [basic] edge: [6] (weight 20)
+10:23:40.903659 [7] {test} possible outbound edge: [7]-[6] (weight 20)
+10:23:40.903664 [7]->[6] {test} || From {CoreEdge:7-8, lv:1} to {CoreEdge:3-6, lv:1} || 3 ms
+10:23:40.903983 >> [0] received {test} from [3]
+10:23:40.903997 [0] received {test} from [3]: {CoreEdge:-1--1, lv:0} <== {CoreEdge:3-6, lv:1}
+10:23:40.904002 [0] (lv 0) received {test} from [3] (lv 1); {test} message stored
+10:23:40.906146 [6] replied {connect} from [5], status = found, FindCount = 0
+10:23:40.906164 >> [6] received {initiate} from [3]
+10:23:40.906168 [6] => <find>
+10:23:40.906173 -- [6]: Status=find, FindCount=0, {CoreEdge:3-6, lv:1}, CoreDirection=3, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.906180 [6]->[5] {initiate} || Fragment: CoreEdge=3-6 (lv 1), status = find, Sender's FindCount = 0 || 1 ms
+10:23:40.906185 >> [5] received {initiate} from [6]
+10:23:40.906190 -- [5]: Status=found, FindCount=0, {CoreEdge:3-6, lv:1}, CoreDirection=6, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.906193 [5] (status=found) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.907411 [6] (status=find) flooded 1 {initiate} messages, FindCount = 1
+10:23:40.907442 [6] retrieved pending {connect} from [4]
+10:23:40.907447 [6] is going to merge/absorb [4]'s fragment, status=find
+10:23:40.907452 [6]-[4] => <branch>
+10:23:40.907460 [6]->[4] {initiate} || Fragment: CoreEdge=3-6 (lv 1), status = find, Sender's FindCount = 1 || 4 ms
+10:23:40.907466 >> [5] received {initiate} from [6]
+10:23:40.907471 [5] => <find>
+10:23:40.907475 -- [5]: Status=find, FindCount=0, {CoreEdge:3-6, lv:1}, CoreDirection=6, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.907479 [5] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.907483 [5] found [basic] edge: [4] (weight 14)
+10:23:40.907487 [5] {test} possible outbound edge: [5]-[4] (weight 14)
+10:23:40.907504 [5]->[4] {test} || From {CoreEdge:3-6, lv:1} to {CoreEdge:-1--1, lv:0} || 2 ms
+10:23:40.907865 [8] replied {connect} from [0], status = found, FindCount = 0
+10:23:40.907883 >> [8] received {initiate} from [7]
+10:23:40.907883 >> [0] received {initiate} from [8]
+10:23:40.907933 -- [0]: Status=found, FindCount=0, {CoreEdge:7-8, lv:1}, CoreDirection=8, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.907944 [0] (status=found) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.907949 [0] retrieved pending {connect} from [2]
+10:23:40.907887 [8] => <find>
+10:23:40.907989 -- [8]: Status=find, FindCount=0, {CoreEdge:7-8, lv:1}, CoreDirection=7, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.907953 [0] is going to merge/absorb [2]'s fragment, status=found
+10:23:40.908000 [8]->[0] {initiate} || Fragment: CoreEdge=7-8 (lv 1), status = find, Sender's FindCount = 0 || 2 ms
+10:23:40.908006 [0]-[2] => <branch>
+10:23:40.908013 [0]->[2] {initiate} || Fragment: CoreEdge=7-8 (lv 1), status = found, Sender's FindCount = 0 || 2 ms
+10:23:40.909637 >> [4] received {test} from [5]
+10:23:40.909665 [4] received {test} from [5]: {CoreEdge:-1--1, lv:0} <== {CoreEdge:3-6, lv:1}
+10:23:40.909675 [4] (lv 0) received {test} from [5] (lv 1); {test} message stored
+10:23:40.910131 [0] replied {connect} from [2], status = found, FindCount = 0
+10:23:40.910197 [0] has 0 pending {connect} messages
+10:23:40.910208 [0] retrieved pending {test} from [3]: {CoreEdge:7-8, lv:1} <== {CoreEdge:3-6, lv:1}
+10:23:40.910218 [0]->[3] {accept} || 2 ms
+10:23:40.910225 >> [2] received {initiate} from [0]
+10:23:40.910231 -- [2]: Status=found, FindCount=0, {CoreEdge:7-8, lv:1}, CoreDirection=0, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.910235 [2] (status=found) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.910239 [2] retrieved pending {connect} from [1]
+10:23:40.910243 [2] is going to merge/absorb [1]'s fragment, status=found
+10:23:40.910246 [2]-[1] => <branch>
+10:23:40.910252 [2]->[1] {initiate} || Fragment: CoreEdge=7-8 (lv 1), status = found, Sender's FindCount = 0 || 4 ms
+10:23:40.910269 [8] (status=find) flooded 1 {initiate} messages, FindCount = 1
+10:23:40.910274 [8] found [basic] edge: [2] (weight 7)
+10:23:40.910278 [8] {test} possible outbound edge: [8]-[2] (weight 7)
+10:23:40.910283 [8]->[2] {test} || From {CoreEdge:7-8, lv:1} to {CoreEdge:7-8, lv:1} || 1 ms
+10:23:40.911585 [6] replied {connect} from [4], status = find, FindCount = 2
+10:23:40.911601 >> [4] received {initiate} from [6]
+10:23:40.911625 [4] => <find>
+10:23:40.911606 [6] has 0 pending {connect} messages
+10:23:40.911631 -- [4]: Status=find, FindCount=0, {CoreEdge:3-6, lv:1}, CoreDirection=6, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.911636 [6] found [basic] edge: [0] (weight 12)
+10:23:40.911639 [4] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.911642 [6] {test} possible outbound edge: [6]-[0] (weight 12)
+10:23:40.911646 [4] retrieved pending {test} from [5]: {CoreEdge:3-6, lv:1} <== {CoreEdge:3-6, lv:1}
+10:23:40.911653 [4]-[5] => <rejected>
+10:23:40.911654 [6]->[0] {test} || From {CoreEdge:3-6, lv:1} to {CoreEdge:7-8, lv:1} || 2 ms
+10:23:40.911657 [4] (rejected) pending {test} from [5]
+10:23:40.911704 [4]->[5] {reject} || 1 ms
+10:23:40.912433 [0] accepted {test} from [8]
+10:23:40.912447 [0] has 0 pending {connect} messages
+10:23:40.912471 >> [0] received {initiate} from [8]
+10:23:40.912475 [0] => <find>
+10:23:40.912479 -- [0]: Status=find, FindCount=0, {CoreEdge:7-8, lv:1}, CoreDirection=8, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.912486 [0]->[2] {initiate} || Fragment: CoreEdge=7-8 (lv 1), status = find, Sender's FindCount = 0 || 3 ms
+10:23:40.912491 >> [3] received {accept} from [0]
+10:23:40.912495 [3] received {accept} from [0], FindCount = 0
+10:23:40.912498 [3] changed its MWOE to 3-0 (weight 8)
+10:23:40.912502 [3] => <found>
+10:23:40.912507 [3]->[6] {report} || MWOE: [3]-[0] Weight=8 || 4 ms
+10:23:40.912942 [4] has 0 pending {connect} messages
+10:23:40.912960 [4] found [basic] edge: [3] (weight 10)
+10:23:40.912965 [4] {test} possible outbound edge: [4]-[3] (weight 10)
+10:23:40.912987 [4]->[3] {test} || From {CoreEdge:3-6, lv:1} to {CoreEdge:3-6, lv:1} || 4 ms
+10:23:40.912993 >> [5] received {reject} from [4]
+10:23:40.912998 [5] received {reject} from [4]
+10:23:40.913002 [5]-[4] => <rejected>
+10:23:40.913006 [5] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.913011 [5] found no possible outbound edge, FindCount=0
+10:23:40.913014 [5] => <found>
+10:23:40.913019 [5]->[6] {report} || MWOE: [-1]-[-1] Weight=9999 || 4 ms
+10:23:40.914229 >> [6] received {test} from [7]
+10:23:40.914279 [6] received {test} from [7]: {CoreEdge:3-6, lv:1} <== {CoreEdge:7-8, lv:1}
+10:23:40.914290 [6]->[7] {accept} || 3 ms
+10:23:40.914571 [2] replied {connect} from [1], status = found, FindCount = 0
+10:23:40.914586 [2] has 0 pending {connect} messages
+10:23:40.914591 >> [2] received {test} from [8]
+10:23:40.914595 [2] received {test} from [8]: {CoreEdge:7-8, lv:1} <== {CoreEdge:7-8, lv:1}
+10:23:40.914599 [2]-[8] => <rejected>
+10:23:40.914603 [2] (rejected) {test} from [8]
+10:23:40.914608 [2]->[8] {reject} || 2 ms
+10:23:40.914633 >> [1] received {initiate} from [2]
+10:23:40.914642 -- [1]: Status=found, FindCount=0, {CoreEdge:7-8, lv:1}, CoreDirection=2, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.914646 [1] (status=found) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.915650 [0] (status=find) flooded 1 {initiate} messages, FindCount = 1
+10:23:40.915678 [0] found [basic] edge: [3] (weight 8)
+10:23:40.915682 [0] {test} possible outbound edge: [0]-[3] (weight 8)
+10:23:40.915690 [0]->[3] {test} || From {CoreEdge:7-8, lv:1} to {CoreEdge:3-6, lv:1} || 1 ms
+10:23:40.917237 >> [2] received {initiate} from [0]
+10:23:40.917301 [2] => <find>
+10:23:40.917309 -- [2]: Status=find, FindCount=0, {CoreEdge:7-8, lv:1}, CoreDirection=0, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.917318 [2]->[1] {initiate} || Fragment: CoreEdge=7-8 (lv 1), status = find, Sender's FindCount = 0 || 3 ms
+10:23:40.917324 >> [8] received {reject} from [2]
+10:23:40.917327 [8] received {reject} from [2]
+10:23:40.917332 [8]-[2] => <rejected>
+10:23:40.917336 [8] found [basic] edge: [1] (weight 15)
+10:23:40.917340 [8] {test} possible outbound edge: [8]-[1] (weight 15)
+10:23:40.917345 [8]->[1] {test} || From {CoreEdge:7-8, lv:1} to {CoreEdge:7-8, lv:1} || 1 ms
+10:23:40.917375 [6] accepted {test} from [7]
+10:23:40.917394 >> [6] received {report} from [5]
+10:23:40.917400 [6] received {report} from [5]: [6]'s current FindCount = 2, MWOE info: [-1]-[-1] (weight 9999), direction=0 ([6])
+10:23:40.917404 [6] (status=find) received a {report} from its child: relay or drop message
+10:23:40.917408 [6] dropped {report} from [5]
+10:23:40.917413 >> [7] received {accept} from [6]
+10:23:40.917416 [7] received {accept} from [6], FindCount = 0
+10:23:40.917420 [7] changed its MWOE to 7-6 (weight 20)
+10:23:40.917424 [7] => <found>
+10:23:40.917431 [7]->[8] {report} || MWOE: [7]-[6] Weight=20 || 2 ms
+10:23:40.917464 >> [3] received {test} from [4]
+10:23:40.917472 [3] received {test} from [4]: {CoreEdge:3-6, lv:1} <== {CoreEdge:3-6, lv:1}
+10:23:40.917476 [3]-[4] => <rejected>
+10:23:40.917480 [3] (rejected) {test} from [4]
+10:23:40.917484 [3]->[4] {reject} || 3 ms
+10:23:40.917488 >> [6] received {report} from [3]
+10:23:40.917492 [6] received {report} from [3]: [6]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=0 ([6])
+10:23:40.917496 [6] (status=find) is the core node farther from the MWOE in the {report}: decide next action
+10:23:40.917499 [6] (status=find) (TestEdge=0) has not collected all {report}/{accept}/{reject} from its branch; {report} message stored
+10:23:40.917531 >> [0] received {test} from [6]
+10:23:40.917540 [0] received {test} from [6]: {CoreEdge:7-8, lv:1} <== {CoreEdge:3-6, lv:1}
+10:23:40.917545 [0]->[6] {accept} || 4 ms
+10:23:40.918481 >> [1] received {test} from [8]
+10:23:40.918513 [1] received {test} from [8]: {CoreEdge:7-8, lv:1} <== {CoreEdge:7-8, lv:1}
+10:23:40.918518 [1]-[8] => <rejected>
+10:23:40.918521 [1] (rejected) {test} from [8]
+10:23:40.918528 [1]->[8] {reject} || 3 ms
+10:23:40.919568 >> [8] received {report} from [7]
+10:23:40.919595 [8] received {report} from [7]: [8]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=0 ([8])
+10:23:40.919600 [8] (status=find) is the core node farther from the MWOE in the {report}: decide next action
+10:23:40.919604 [8] (status=find) (TestEdge=1) has not collected all {report}/{accept}/{reject} from its branch; {report} message stored
+10:23:40.920688 >> [3] received {test} from [0]
+10:23:40.920722 [3] received {test} from [0]: {CoreEdge:3-6, lv:1} <== {CoreEdge:7-8, lv:1}
+10:23:40.920735 [3]->[0] {accept} || 4 ms
+10:23:40.920741 >> [4] received {reject} from [3]
+10:23:40.920745 [4] received {reject} from [3]
+10:23:40.920749 [4]-[3] => <rejected>
+10:23:40.920753 [4] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.920756 [4] found no possible outbound edge, FindCount=0
+10:23:40.920760 [4] => <found>
+10:23:40.920765 [4]->[6] {report} || MWOE: [-1]-[-1] Weight=9999 || 1 ms
+10:23:40.920772 [2] (status=find) flooded 1 {initiate} messages, FindCount = 1
+10:23:40.920776 [2] found [basic] edge: [3] (weight 11)
+10:23:40.920779 [2] {test} possible outbound edge: [2]-[3] (weight 11)
+10:23:40.920784 [2]->[3] {test} || From {CoreEdge:7-8, lv:1} to {CoreEdge:3-6, lv:1} || 3 ms
+10:23:40.922215 >> [6] received {report} from [4]
+10:23:40.922252 [6] received {report} from [4]: [6]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=0 ([6])
+10:23:40.922257 [6] (status=find) received a {report} from its child: relay or drop message
+10:23:40.922261 [6] dropped {report} from [4]
+10:23:40.922267 >> [1] received {initiate} from [2]
+10:23:40.922271 [1] => <find>
+10:23:40.922275 -- [1]: Status=find, FindCount=0, {CoreEdge:7-8, lv:1}, CoreDirection=2, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.922279 [1] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.922283 [1] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.922287 [1] found no possible outbound edge, FindCount=0
+10:23:40.922290 [1] => <found>
+10:23:40.922298 [1]->[2] {report} || MWOE: [-1]-[-1] Weight=9999 || 3 ms
+10:23:40.922323 >> [8] received {reject} from [1]
+10:23:40.922330 [8] received {reject} from [1]
+10:23:40.922334 [8]-[1] => <rejected>
+10:23:40.922338 [8] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.922341 [8] found no possible outbound edge, FindCount=1
+10:23:40.922346 [0] accepted {test} from [6]
+10:23:40.922351 >> [6] received {accept} from [0]
+10:23:40.922354 [6] received {accept} from [0], FindCount = 0
+10:23:40.922358 [6] changed its MWOE to 6-0 (weight 12)
+10:23:40.922361 [6] => <found>
+10:23:40.922366 [6]->[3] {report} || MWOE: [6]-[0] Weight=12 || 4 ms
+10:23:40.925200 [3] accepted {test} from [0]
+10:23:40.925239 >> [3] received {test} from [2]
+10:23:40.925244 [3] received {test} from [2]: {CoreEdge:3-6, lv:1} <== {CoreEdge:7-8, lv:1}
+10:23:40.925253 [3]->[2] {accept} || 3 ms
+10:23:40.925259 >> [0] received {accept} from [3]
+10:23:40.925262 [0] received {accept} from [3], FindCount = 1
+10:23:40.925267 [0] changed its MWOE to 0-3 (weight 8)
+10:23:40.925390 >> [2] received {report} from [1]
+10:23:40.925406 [2] received {report} from [1]: [2]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=0 ([2])
+10:23:40.925410 [2] (status=find) received a {report} from its child: relay or drop message
+10:23:40.925414 [2] dropped {report} from [1]
+10:23:40.926562 [6] ignored {report} from [3] (delayed)
+10:23:40.928392 [3] accepted {test} from [2]
+10:23:40.928418 >> [3] received {report} from [6]
+10:23:40.928424 [3] received {report} from [6]: [3]'s current FindCount = 0, MWOE info: [3]-[0] (weight 8), direction=2 ([0])
+10:23:40.928429 [3] (status=found) is the core node farther from the MWOE in the {report}: decide next action
+10:23:40.928434 [3] starts {changecore} to [0], MWOE: [3]-[0] (weight 8)
+10:23:40.928439 [3]-[0] => <branch>
+10:23:40.928448 [3]->[0] {connect} || From {CoreEdge:3-6, lv:1} to {CoreEdge:7-8, lv:1} || 2 ms
+10:23:40.928519 >> [2] received {accept} from [3]
+10:23:40.928550 [2] received {accept} from [3], FindCount = 0
+10:23:40.928555 [2] changed its MWOE to 2-3 (weight 11)
+10:23:40.928560 [2] => <found>
+10:23:40.928569 [2]->[0] {report} || MWOE: [2]-[3] Weight=11 || 4 ms
+10:23:40.931266 >> [0] received {connect} from [3]
+10:23:40.931363 [0] received {connect} from [3] BEFORE sending {connect} to [3]; {connect} message stored, size = 1
+10:23:40.932756 >> [0] received {report} from [2]
+10:23:40.932787 [0] received {report} from [2]: [0]'s current FindCount = 1, MWOE info: [0]-[3] (weight 8), direction=3 ([3])
+10:23:40.932792 [0] (status=find) received a {report} from its child: relay or drop message
+10:23:40.932796 [0] dropped {report} from [2]
+10:23:40.932801 [0] => <found>
+10:23:40.932810 [0]->[8] {report} || MWOE: [0]-[3] Weight=8 || 1 ms
+10:23:40.933981 >> [8] received {report} from [0]
+10:23:40.934013 [8] received {report} from [0]: [8]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=0 ([8])
+10:23:40.934018 [8] (status=find) received a {report} from its child: relay or drop message
+10:23:40.934023 [8] updated its MWOE: [0]-[3] (weight 8), direction=2 ([0]
+10:23:40.934027 [8] => <found>
+10:23:40.934035 [8]->[7] {report} || MWOE: [0]-[3] Weight=8 || 1 ms
+10:23:40.935160 [8] starts {changecore} to [0] (delayed), MWOE: [0]-[3] (weight 8)
+10:23:40.935265 [8]->[0] {changecore} || MWOE: [0]-[3] Weight=8, former CoreEdge=7-8 (lv 1) || 4 ms
+10:23:40.935281 >> [7] received {report} from [8]
+10:23:40.935288 [7] received {report} from [8]: [7]'s current FindCount = 0, MWOE info: [7]-[6] (weight 20), direction=2 ([6])
+10:23:40.935292 [7] (status=found) is the core node farther from the MWOE in the {report}: decide next action
+10:23:40.935295 [7] ignored {report} from [8]
+10:23:40.940211 >> [0] received {changecore} from [8]
+10:23:40.940283 [0] received {changecore} from [8], MWOEDirectionPort = 3
+10:23:40.940291 [0]-[3] => <branch>
+10:23:40.940300 [0]->[3] {connect} || From {CoreEdge:7-8, lv:1} to {CoreEdge:3-6, lv:1} || 2 ms
+10:23:40.942532 [0] retrieved pending {connect} from [3]
+10:23:40.942574 [0] received {connect} from [3] AFTER sending {connect} to [3]
+10:23:40.942587 [0]->[3] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 0 || 2 ms
+10:23:40.942627 >> [3] received {connect} from [0]
+10:23:40.942636 [3] received {connect} from [0] AFTER sending {connect} to [0]
+10:23:40.942641 [3]->[0] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 0 || 2 ms
+10:23:40.944760 [0] send {initiate} over new core edge [0]-[3]
+10:23:40.944832 [0] has 0 pending {connect} messages
+10:23:40.944858 [3] send {initiate} over new core edge [3]-[0]
+10:23:40.944870 >> [3] received {initiate} from [0]
+10:23:40.944874 [3] => <find>
+10:23:40.944879 -- [3]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=0, MWOEDirection=0, MWOEWeight=8
+10:23:40.944887 [3]->[6] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 0 || 2 ms
+10:23:40.944911 >> [0] received {initiate} from [3]
+10:23:40.944919 [0] => <find>
+10:23:40.944923 -- [0]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=3, MWOEDirection=3, MWOEWeight=8
+10:23:40.944929 [0]->[8] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 0 || 4 ms
+10:23:40.947412 [3] (status=find) flooded 1 {initiate} messages, FindCount = 1
+10:23:40.947456 >> [6] received {initiate} from [3]
+10:23:40.947504 [6] => <find>
+10:23:40.947520 -- [6]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=3, MWOEDirection=0, MWOEWeight=12
+10:23:40.947538 [6]->[4] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 0 || 2 ms
+10:23:40.947458 [3] found [basic] edge: [2] (weight 11)
+10:23:40.947582 [3] {test} possible outbound edge: [3]-[2] (weight 11)
+10:23:40.947597 [3]->[2] {test} || From {CoreEdge:0-3, lv:2} to {CoreEdge:7-8, lv:1} || 4 ms
+10:23:40.949060 [0]->[2] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 1 || 4 ms
+10:23:40.949104 >> [8] received {initiate} from [0]
+10:23:40.949109 [8] => <find>
+10:23:40.949117 -- [8]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=0, MWOEDirection=3, MWOEWeight=8
+10:23:40.949123 [8]->[7] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 0 || 3 ms
+10:23:40.949768 [6]->[5] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 1 || 3 ms
+10:23:40.949797 >> [4] received {initiate} from [6]
+10:23:40.949801 [4] => <find>
+10:23:40.949806 -- [4]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=6, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.949811 [4] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.949815 [4] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.949818 [4] found no possible outbound edge, FindCount=0
+10:23:40.949822 [4] => <found>
+10:23:40.949827 [4]->[6] {report} || MWOE: [-1]-[-1] Weight=9999 || 1 ms
+10:23:40.951730 >> [2] received {test} from [3]
+10:23:40.951755 [2] received {test} from [3]: {CoreEdge:7-8, lv:1} <== {CoreEdge:0-3, lv:2}
+10:23:40.951760 [2] (lv 1) received {test} from [3] (lv 2); {test} message stored
+10:23:40.952274 [8] (status=find) flooded 1 {initiate} messages, FindCount = 1
+10:23:40.952293 [8] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.952293 >> [7] received {initiate} from [8]
+10:23:40.952341 [7] => <find>
+10:23:40.952297 [8] found no possible outbound edge, FindCount=1
+10:23:40.952352 -- [7]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=8, MWOEDirection=6, MWOEWeight=20
+10:23:40.952389 [7] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.952393 [7] found [basic] edge: [6] (weight 20)
+10:23:40.952397 [7] {test} possible outbound edge: [7]-[6] (weight 20)
+10:23:40.952404 [7]->[6] {test} || From {CoreEdge:0-3, lv:2} to {CoreEdge:0-3, lv:2} || 3 ms
+10:23:40.952984 [6] (status=find) flooded 2 {initiate} messages, FindCount = 2
+10:23:40.953003 [6] found [basic] edge: [0] (weight 12)
+10:23:40.953008 [6] {test} possible outbound edge: [6]-[0] (weight 12)
+10:23:40.953017 [6]->[0] {test} || From {CoreEdge:0-3, lv:2} to {CoreEdge:0-3, lv:2} || 4 ms
+10:23:40.953046 >> [5] received {initiate} from [6]
+10:23:40.953054 [5] => <find>
+10:23:40.953059 -- [5]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=6, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.953062 [5] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.953066 [5] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.953069 [5] found no possible outbound edge, FindCount=0
+10:23:40.953073 [5] => <found>
+10:23:40.953079 [5]->[6] {report} || MWOE: [-1]-[-1] Weight=9999 || 1 ms
+10:23:40.953241 [0] (status=find) flooded 2 {initiate} messages, FindCount = 2
+10:23:40.953255 [0] found [basic] edge: [6] (weight 12)
+10:23:40.953259 [0] {test} possible outbound edge: [0]-[6] (weight 12)
+10:23:40.953266 [0]->[6] {test} || From {CoreEdge:0-3, lv:2} to {CoreEdge:0-3, lv:2} || 4 ms
+10:23:40.953271 >> [2] received {initiate} from [0]
+10:23:40.953275 [2] => <find>
+10:23:40.953279 -- [2]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=0, MWOEDirection=3, MWOEWeight=11
+10:23:40.953285 [2]->[1] {initiate} || Fragment: CoreEdge=0-3 (lv 2), status = find, Sender's FindCount = 0 || 1 ms
+10:23:40.954457 [2] (status=find) flooded 1 {initiate} messages, FindCount = 1
+10:23:40.954485 [2] retrieved pending {test} from [3]: {CoreEdge:0-3, lv:2} <== {CoreEdge:0-3, lv:2}
+10:23:40.954491 [2]-[3] => <rejected>
+10:23:40.954495 [2] (rejected) pending {test} from [3]
+10:23:40.954503 [2]->[3] {reject} || 4 ms
+10:23:40.954508 >> [1] received {initiate} from [2]
+10:23:40.954512 [1] => <find>
+10:23:40.954517 -- [1]: Status=find, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=2, MWOEDirection=-1, MWOEWeight=9999
+10:23:40.954520 [1] (status=find) flooded 0 {initiate} messages, FindCount = 0
+10:23:40.954524 [1] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.954540 [1] found no possible outbound edge, FindCount=0
+10:23:40.954544 [1] => <found>
+10:23:40.954548 [1]->[2] {report} || MWOE: [-1]-[-1] Weight=9999 || 2 ms
+10:23:40.957167 >> [6] received {report} from [4]
+10:23:40.957199 [6] received {report} from [4]: [6]'s current FindCount = 2, MWOE info: [6]-[0] (weight 12), direction=3 ([0])
+10:23:40.957204 [6] (status=find) received a {report} from its child: relay or drop message
+10:23:40.957208 [6] dropped {report} from [4]
+10:23:40.957211 >> [6] received {report} from [5]
+10:23:40.957215 [6] received {report} from [5]: [6]'s current FindCount = 1, MWOE info: [6]-[0] (weight 12), direction=3 ([0])
+10:23:40.957219 [6] (status=find) received a {report} from its child: relay or drop message
+10:23:40.957222 [6] dropped {report} from [5]
+10:23:40.957226 >> [6] received {test} from [7]
+10:23:40.957243 [6] received {test} from [7]: {CoreEdge:0-3, lv:2} <== {CoreEdge:0-3, lv:2}
+10:23:40.957251 [6]-[7] => <rejected>
+10:23:40.957255 [6] (rejected) {test} from [7]
+10:23:40.957261 [6]->[7] {reject} || 3 ms
+10:23:40.957398 >> [0] received {test} from [6]
+10:23:40.957409 [0] received {test} from [6]: {CoreEdge:0-3, lv:2} <== {CoreEdge:0-3, lv:2}
+10:23:40.957413 [0]-[6] => <rejected>
+10:23:40.957416 [0] silently (rejected) {test} from [6]
+10:23:40.957420 [0] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.957423 [0] found no possible outbound edge, FindCount=2
+10:23:40.958848 [2] has 0 pending {connect} messages
+10:23:40.958891 [2] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.958899 [2] found no possible outbound edge, FindCount=1
+10:23:40.958906 >> [2] received {report} from [1]
+10:23:40.958912 [2] received {report} from [1]: [2]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=4 ([3])
+10:23:40.958917 [2] (status=find) received a {report} from its child: relay or drop message
+10:23:40.958922 [2] dropped {report} from [1]
+10:23:40.958927 [2] => <found>
+10:23:40.958935 [2]->[0] {report} || MWOE: [-1]-[-1] Weight=9999 || 2 ms
+10:23:40.958957 >> [3] received {reject} from [2]
+10:23:40.958961 [3] received {reject} from [2]
+10:23:40.958964 [3]-[2] => <rejected>
+10:23:40.958968 [3] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.958971 [3] found no possible outbound edge, FindCount=1
+10:23:40.960377 >> [6] received {test} from [0]
+10:23:40.960394 [6] received {test} from [0]: {CoreEdge:0-3, lv:2} <== {CoreEdge:0-3, lv:2}
+10:23:40.960399 [6]-[0] => <rejected>
+10:23:40.960407 [6] silently (rejected) {test} from [0]
+10:23:40.960411 [6] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.960414 [6] found no possible outbound edge, FindCount=0
+10:23:40.960418 [6] => <found>
+10:23:40.960429 [6]->[3] {report} || MWOE: [-1]-[-1] Weight=9999 || 4 ms
+10:23:40.960459 >> [7] received {reject} from [6]
+10:23:40.960467 [7] received {reject} from [6]
+10:23:40.960471 [7]-[6] => <rejected>
+10:23:40.960475 [7] found no [basic] edge: all adjacent edges are labeled [branch] or [reject]
+10:23:40.960478 [7] found no possible outbound edge, FindCount=0
+10:23:40.960481 [7] => <found>
+10:23:40.960487 [7]->[8] {report} || MWOE: [-1]-[-1] Weight=9999 || 4 ms
+10:23:40.961090 >> [0] received {report} from [2]
+10:23:40.961109 [0] received {report} from [2]: [0]'s current FindCount = 2, MWOE info: [-1]-[-1] (weight 9999), direction=3 ([3])
+10:23:40.961113 [0] (status=find) received a {report} from its child: relay or drop message
+10:23:40.961117 [0] dropped {report} from [2]
+10:23:40.965306 >> [3] received {report} from [6]
+10:23:40.965336 >> [8] received {report} from [7]
+10:23:40.965381 [8] received {report} from [7]: [8]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=2 ([0])
+10:23:40.965338 [3] received {report} from [6]: [3]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=2 ([0])
+10:23:40.965417 [3] (status=find) received a {report} from its child: relay or drop message
+10:23:40.965425 [3] dropped {report} from [6]
+10:23:40.965446 [3] => <found>
+10:23:40.965454 [3]->[0] {report} || MWOE: [-1]-[-1] Weight=9999 || 2 ms
+10:23:40.965390 [8] (status=find) received a {report} from its child: relay or drop message
+10:23:40.965464 [8] dropped {report} from [7]
+10:23:40.965467 [8] => <found>
+10:23:40.965472 [8]->[0] {report} || MWOE: [-1]-[-1] Weight=9999 || 4 ms
+10:23:40.967785 >> [0] received {report} from [3]
+10:23:40.967845 [0] received {report} from [3]: [0]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=3 ([3])
+10:23:40.967854 [0] (status=find) is the core node farther from the MWOE in the {report}: decide next action
+10:23:40.967858 [0] (status=find) (TestEdge=-1) has not collected all {report}/{accept}/{reject} from its branch; {report} message stored
+10:23:40.969992 >> [0] received {report} from [8]
+10:23:40.970023 [0] received {report} from [8]: [0]'s current FindCount = 1, MWOE info: [-1]-[-1] (weight 9999), direction=3 ([3])
+10:23:40.970027 [0] (status=find) received a {report} from its child: relay or drop message
+10:23:40.970031 [0] dropped {report} from [8]
+10:23:40.970035 [0] => <found>
+10:23:40.970044 [0]->[3] {report} || MWOE: [-1]-[-1] Weight=9999 || 3 ms
+10:23:40.974327 [0] ignored {report} from [3] (delayed)
+10:23:40.974370 Fragment [0]-[3] (lv 2) found no MWOE (delayed)
+10:23:40.974378 [0] EXIT
+10:23:40.974398 >> [3] received {report} from [0]
+10:23:40.974408 [3] received {report} from [0]: [3]'s current FindCount = 0, MWOE info: [-1]-[-1] (weight 9999), direction=2 ([0])
+10:23:40.974415 [3] (status=found) is the core node farther from the MWOE in the {report}: decide next action
+10:23:40.974422 [3] ignored {report} from [0]
+10:23:40.974429 Fragment [0]-[3] (lv 2) found no MWOE
+10:23:40.974435 [3] EXIT
+10:23:41.498022 GHS last updated at 2019-04-15 10:23:40.974320982 +0800 CST m=+0.080630373
+ current time is 2019-04-15 10:23:41.497969206 +0800 CST m=+0.604278527
+10:23:41.498171 >> [0] received terminate signal while <found>
+10:23:41.498200 >> [1] received terminate signal while <found>
+10:23:41.498207 >> [2] received terminate signal while <found>
+10:23:41.498213 >> [3] received terminate signal while <found>
+10:23:41.498218 >> [4] received terminate signal while <found>
+10:23:41.498222 >> [5] received terminate signal while <found>
+10:23:41.498228 >> [6] received terminate signal while <found>
+10:23:41.498232 >> [7] received terminate signal while <found>
+10:23:41.498237 >> [8] received terminate signal while <found>
+10:23:41.509128 -- [0]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=3, MWOEDirection=-1, MWOEWeight=9999
+10:23:41.509163 -- [1]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=2, MWOEDirection=-1, MWOEWeight=9999
+10:23:41.509168 -- [2]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=0, MWOEDirection=-1, MWOEWeight=9999
+10:23:41.509172 -- [3]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=0, MWOEDirection=-1, MWOEWeight=9999
+10:23:41.509176 -- [4]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=6, MWOEDirection=-1, MWOEWeight=9999
+10:23:41.509180 -- [5]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=6, MWOEDirection=-1, MWOEWeight=9999
+10:23:41.509184 -- [6]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=3, MWOEDirection=-1, MWOEWeight=9999
+10:23:41.509189 -- [7]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=8, MWOEDirection=-1, MWOEWeight=9999
+10:23:41.509193 -- [8]: Status=found, FindCount=0, {CoreEdge:0-3, lv:2}, CoreDirection=0, MWOEDirection=-1, MWOEWeight=9999
